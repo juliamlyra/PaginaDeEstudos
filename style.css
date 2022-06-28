@@ -1,0 +1,169 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f7f9;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+header > h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  text-shadow: 2px 2px #ccc;
+}
+
+i {
+  margin-left: 5px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: #ddd;
+  height: 50px;
+  align-items: center;
+  border: solid 1px #ccc;
+}
+
+.div-menu {
+  display: flex;
+}
+
+.container-title > h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px #ccc;
+}
+
+.card {
+  border-radius: 20px;
+  border: solid 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer > p {
+  background-color: rgba(29, 26, 26, 0.1);
+  margin-top: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 30px;
+  text-shadow: 0.5px 0.5px #ccc;
+}
+
+/*SOBRE MIM*/
+
+.container-aboutme {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border: solid 2px #ccc;
+  border-radius: 50px;
+}
+
+.aboutme-text{
+    margin: 0 auto;
+    width: 800px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+.container-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.container-img > h1{
+    margin-left: 40%;
+    text-shadow: 2px 2px #ccc;
+}
+
+.img-perfil {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: solid 3px #ccc;
+  margin-right: 50px;
+}
+
+.footer-aboutme > p {
+  background-color: rgba(29, 26, 26, 0.1);
+  margin-top: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 30px;
+  text-shadow: 0.5px 0.5px #ccc;
+}
+
+/*Fale conosco*/
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    border: solid 2px #ccc;
+    border-radius: 50px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    height: 500px;
+
+}
+.container-contact > div > h1{
+  text-shadow: 2px 2px #ccc;
+}
+
+.center-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.inputs-form{
+  border: solid 2px #ccc;
+  border-radius: 10px;
+}
+.textarea-form{
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 2px #ccc;
+}
+
+.footer-contact > p {
+  background-color: rgba(29, 26, 26, 0.1);
+  margin-top: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 30px;
+  text-shadow: 0.5px 0.5px #ccc;
+}
+
+::placeholder{
+  text-align: center;
+}
