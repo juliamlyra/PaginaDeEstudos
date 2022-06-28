@@ -2,7 +2,7 @@
 Desenvolvimento de páginas web para estudo de HTML, CSS e JavaScript.
 
 # Telas
-##Principal
+## Principal
 ![image](https://user-images.githubusercontent.com/105234198/176281304-ec9cbab2-93c3-442d-9319-b2add4ebc1a9.png)
 ## Sobre mim
 ![image](https://user-images.githubusercontent.com/105234198/176281522-a2028050-c517-4839-9069-bcb9c1884839.png)
