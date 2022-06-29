@@ -3,9 +3,9 @@ body {
   background-color: #f5f7f9;
 }
 
-a{
-    text-decoration: none;
-    color:inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 header > h1 {
@@ -23,8 +23,8 @@ i {
 .menu {
   display: flex;
   list-style: none;
-  justify-content: space-around;
-  background-color: #ddd;
+  justify-content: space-between;
+  background-color: #ececec;
   height: 50px;
   align-items: center;
   border: solid 1px #ccc;
@@ -38,6 +38,7 @@ i {
   display: flex;
   justify-content: center;
   text-shadow: 1px 1px #ccc;
+  margin-top: 40px;
 }
 
 .card {
@@ -48,6 +49,7 @@ i {
   justify-content: center;
   align-items: center;
   width: 400px;
+  margin-top: 10px;
 }
 .container {
   display: flex;
@@ -56,7 +58,7 @@ i {
 
 .footer > p {
   background-color: rgba(29, 26, 26, 0.1);
-  margin-top: 250px;
+  margin-top: 240px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -74,12 +76,11 @@ i {
   border-radius: 50px;
 }
 
-.aboutme-text{
-    margin: 0 auto;
-    width: 800px;
-    margin-bottom: 20px;
-    text-align: justify;
-
+.aboutme-text {
+  margin: 0 auto;
+  width: 800px;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 .container-img {
   display: flex;
@@ -88,9 +89,9 @@ i {
   align-items: center;
 }
 
-.container-img > h1{
-    margin-left: 40%;
-    text-shadow: 2px 2px #ccc;
+.container-img > h1 {
+  margin-left: 40%;
+  text-shadow: 2px 2px #ccc;
 }
 
 .img-perfil {
@@ -111,43 +112,42 @@ i {
   text-shadow: 0.5px 0.5px #ccc;
 }
 
-/*Fale conosco*/
+/*FALE CONOSCO*/
 
-.container-contact{
-    display: flex;
-    justify-content: center;
-    border: solid 2px #ccc;
-    border-radius: 50px;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-    height: 500px;
-
+.container-contact {
+  display: flex;
+  justify-content: center;
+  border: solid 2px #ccc;
+  border-radius: 50px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  height: 500px;
 }
-.container-contact > div > h1{
+.container-contact > div > h1 {
   text-shadow: 2px 2px #ccc;
 }
 
-.center-contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.center-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
-.inputs-form{
+.inputs-form {
   border: solid 2px #ccc;
   border-radius: 10px;
 }
-.textarea-form{
+.textarea-form {
   width: 400px;
   height: 200px;
   border-radius: 10px;
@@ -164,6 +164,56 @@ i {
   text-shadow: 0.5px 0.5px #ccc;
 }
 
-::placeholder{
+::placeholder {
   text-align: center;
+}
+
+/*MIDIAS*/
+.midias-title{
+  text-shadow: 1px 1px #ccc;
+  text-align: center;
+  height: 80px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border:solid 2px #ccc;
+  border-radius: 30px;
+}  
+
+.card-midias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container-midias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 2px #ccc;
+  border-radius: 50px;
+  align-items: center;
+  text-shadow: 1px 1px #ccc;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 500px;
+}
+
+.icons-midia {
+  margin-left: 10px;
+  height: 45px;
+  width: 45px;
+}
+
+.footer-midias > p {
+  background-color: rgba(29, 26, 26, 0.1);
+  margin-top: 200px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 30px;
+  text-shadow: 0.5px 0.5px #ccc;
 }
