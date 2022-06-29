@@ -172,7 +172,7 @@ i {
 }
 
 /*MIDIAS*/
-.midias-title{
+.midias-title {
   text-shadow: 1px 1px #ccc;
   text-align: center;
   height: 30px;
@@ -181,7 +181,7 @@ i {
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
-}  
+}
 
 .card-midias {
   display: flex;
@@ -191,7 +191,7 @@ i {
   margin-top: 50px;
 }
 
-.container-midias{
+.container-midias {
   display: flex;
   flex-direction: column;
   justify-content: center;
