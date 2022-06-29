@@ -74,12 +74,13 @@ i {
   margin: 0 auto;
   border: solid 2px #ccc;
   border-radius: 50px;
+  margin-top: 60px;
 }
 
 .aboutme-text {
   margin: 0 auto;
   width: 800px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: justify;
 }
 .container-img {
@@ -104,12 +105,13 @@ i {
 
 .footer-aboutme > p {
   background-color: rgba(29, 26, 26, 0.1);
-  margin-top: 250px;
+  margin-top: 360px;
   display: flex;
   justify-content: end;
   align-items: center;
   height: 30px;
   text-shadow: 0.5px 0.5px #ccc;
+  margin-bottom: 0px;
 }
 
 /*FALE CONOSCO*/
@@ -123,6 +125,7 @@ i {
   margin: 0 auto;
   align-items: center;
   height: 500px;
+  margin-top: 50px;
 }
 .container-contact > div > h1 {
   text-shadow: 2px 2px #ccc;
@@ -156,7 +159,7 @@ i {
 
 .footer-contact > p {
   background-color: rgba(29, 26, 26, 0.1);
-  margin-top: 150px;
+  margin-top: 135px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -172,13 +175,12 @@ i {
 .midias-title{
   text-shadow: 1px 1px #ccc;
   text-align: center;
-  height: 80px;
+  height: 30px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 50px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
-  border:solid 2px #ccc;
-  border-radius: 30px;
 }  
 
 .card-midias {
