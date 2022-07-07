@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
-    <script src="../controller.js"></script>
     <title>EX 1 Somando dois números</title>
   </head>
   <body>
@@ -16,14 +15,14 @@
     <div class="container-ex1">
       <div>
         <p>Digite o primeiro valor para soma:</p>
-        <input class="inputs-ex1" type="number" id="num1" placeholder="Digite o primeiro valor"/>
+        <input class="inputs-ex1" type="number" id="valor1" placeholder="Digite o primeiro valor"/>
       </div>
       <div>
         <p>Digite o segundo valor para soma:</p>
-        <input class="inputs-ex1" type="number" id="num2" placeholder="Digite o segundo valor"/>
+        <input class="inputs-ex1" type="number" id="valor2" placeholder="Digite o segundo valor"/>
       </div>
       <div class="button-resultado">
-        <button onclick="onClickResult()">Resultado</button>
+        <button onclick="onClickGetResult()">Resultado</button>
       </div>
       <div class="resultado-ex1">
         <p>O resultado da sua soma é:</p>
@@ -34,5 +33,6 @@
 <footer class="footer-ex1">
     <p>Copywrite Júlia Mendonça Lyra 2022</p>
   </footer>
+  <script src="../controller.js"></script>
   </body>
 </html>
